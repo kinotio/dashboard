@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.font-garet-book {
+  font-family: "Garet Book", sans-serif;
+}
+
+.font-garet-heavy {
+  font-family: "Garet Heavy", sans-serif;
+}
+
+.Toastify__toast-container {
+  top: 0 !important;
+  width: 100vw !important;
+  text-align: center !important;
+}
+
+.Toastify__toast-body > div {
+  font-family: "Poppins" !important;
+}
+
+.Toastify__close-button {
+  margin-top: 14px !important;
+}
+
+.react-international-phone-input-container .react-international-phone-country-selector-button {
+  height: 44px !important;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.react-international-phone-input-container .react-international-phone-input {
+  width: 100%;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  height: 44px !important;
+  border-top-right-radius: 7px !important;
+  border-bottom-right-radius: 7px !important;
+}
+
+select {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.select-wrapper {
+  position: relative;
+}
+
+.select-wrapper::after {
+  content: "▼";
+  font-size: 14px;
+  top: 10px;
+  right: 10px;
+  position: absolute;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.loader-full {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cl-formButtonPrimary {
+  background-color: #5fa5f9;
+  border-radius: 50px;
+}
+
+.cl-formButtonPrimary:hover {
+  background-color: #338cf9;
+  border-radius: 50px;
+}
+
+.cl-footerActionLink {
+  color: #5fa5f9;
+}
+
+.cl-footerActionLink:hover {
+  color: #338cf9;
+}
+
+.sidemenu-container {
+}
+
+.sidemenu {
+  /* height: 85vh !important; */
+}

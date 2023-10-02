@@ -1,0 +1,29 @@
+/* GARET FONT */
+@font-face {
+  font-family: "Garet Book";
+  src: url("/assets/fonts/garet/Garet-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Garet Heavy";
+  src: url("/assets/fonts/garet/Garet-Heavy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* POPPINS FONT */
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
