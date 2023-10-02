@@ -1,4 +1,4 @@
-import { currentUser } from '@clerk/nextjs'
+import { currentUser, SignedIn } from '@clerk/nextjs'
 
 import SideMenuComponent from '@components/common/SideMenuComponent'
 
@@ -7,10 +7,12 @@ const SideMenuLayout = async ({ children }: { children: React.ReactNode }) => {
 
   return (
     <div className='sidemenu-container'>
-      <div className='flex flex-1'>
-        <SideMenuComponent user={user} />
+      <div className='flex justify-center flex-1'>
+        <SignedIn>
+          <SideMenuComponent user={user} />
+        </SignedIn>
 
-        <main className='container overflow-y-auto'>{children}</main>
+        <main className='container overflow-y-auto mx-4 my-6'>{children}</main>
       </div>
     </div>
   )
