@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { Dialog } from '@headlessui/react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark, faChevronRight } from '@fortawesome/free-solid-svg-icons'
-import { UserButton, SignedIn, SignedOut } from '@clerk/nextjs'
+import { SignedOut } from '@clerk/nextjs'
 
 const HeaderComponent = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -85,7 +85,7 @@ const HeaderComponent = () => {
                     href='/sign-up'
                     className='text-sm font-semibold leading-6 text-white bg-black py-2 px-4 rounded-full flex items-center justify-center'
                   >
-                    Get started
+                    Sign in
                     <FontAwesomeIcon
                       className='ml-2'
                       icon={faChevronRight}
@@ -93,12 +93,6 @@ const HeaderComponent = () => {
                     />
                   </Link>
                 </SignedOut>
-
-                <SignedIn>
-                  <div className='flex items-center pl-4'>
-                    <UserButton afterSignOutUrl='/' />
-                  </div>
-                </SignedIn>
               </div>
             </div>
           </div>
