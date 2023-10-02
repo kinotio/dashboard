@@ -7,10 +7,10 @@ const SideMenuLayout = async ({ children }: { children: React.ReactNode }) => {
 
   return (
     <div className='sidemenu-container'>
-      <div className='flex flex-col md:flex-row flex-1'>
+      <div className='flex flex-1'>
         <SideMenuComponent user={user} />
 
-        <main className='container flex-1 overflow-y-auto'>{children}</main>
+        <main className='container overflow-y-auto'>{children}</main>
       </div>
     </div>
   )
