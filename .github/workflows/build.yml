@@ -17,7 +17,7 @@ jobs:
     steps:
       # Checkout the code
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       # Detect the package manager (npm or yarn)
       - name: Detect Package Manager
         id: detect-package-manager
