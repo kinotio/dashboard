@@ -28,7 +28,6 @@
       "@containers/*": ["./containers/*"],
       "@mocks/*": ["./mocks/*"],
       "@stores/*": ["./stores/*"],
-      "@pages/*": ["./pages/*"],
       "@locales/*": ["./locales/*"],
       "@layouts/*": ["./layouts/*"]
     },
