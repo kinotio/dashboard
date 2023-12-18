@@ -40,7 +40,7 @@
     "@types/node": "20.5.1",
     "@types/react": "18.2.20",
     "@types/react-datepicker": "^4.15.0",
-    "@types/react-dom": "18.2.7",
+    "@types/react-dom": "18.2.18",
     "@types/uuid": "^9.0.4",
     "autoprefixer": "10.4.15",
     "husky": "^8.0.0",
